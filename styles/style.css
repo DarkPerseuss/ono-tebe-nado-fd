@@ -81,16 +81,20 @@ header {
   position: relative;
   width: 1100px;
   height: 757px;
+  padding-inline: 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: 0;
   background-position: center;
   background-size: cover;
-
 }
 
-h1 {
+.cover__title {
   position:relative;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 165px 0 106px;
   color: #FFFFFF;
   font-weight: normal;
   font-weight: 700;
@@ -98,40 +102,34 @@ h1 {
   font-size: 100px;
   line-height: 115%;
   letter-spacing: 0.3em;
+  letter-spacing: 0.3em;
   letter-spacing: 30%;
   text-transform: uppercase;
 }
 
-.cover__title {
-  padding-top: 165px;
-}
-
 .aligned-text {
-  display: block;
-}
-
-.aligned-text_left {
-  margin-left: 50px;
+  display: inline-block;
 }
 
 .aligned-text_center {
-  margin:20px 380.5px 0 380.5px;
+  padding-left: 30px;
   text-align: center;
 }
 
 .aligned-text_right {
-  margin:20px 50px 0 663px;
   text-align: right;
+
+  transform: translateX(30px);
 }
 
 .cover__description {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cover__description-text {
   z-index: 3;
-  margin-top: 118px;
-  margin-left:50px;
   color: #FFFFFF;
   font-weight: normal;
   font-size: 22px;
@@ -145,8 +143,6 @@ h1 {
   z-index: 4;
   width: 256px;
   height: 51px;
-  margin-top: 106px;
-  margin-left: 106px;
   border-color: #FFFFFF;
   border-block-end:1;
   color: #FFFFFF;
