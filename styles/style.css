@@ -13,10 +13,6 @@ header {
   font-weight: normal;
 }
 
-.header__menu {
-
-}
-
 .header__links-list {
   display: flex;
   gap: 32px;
@@ -156,8 +152,6 @@ header {
   width:1052px;
   min-height: 723px;
   margin: 180px 24px 0;
-  /* padding-top: 4px; */
-  
 }
 
 .lots__heading {
@@ -256,17 +250,16 @@ header {
 .about__logo {
   justify-self: center;
   margin-top: 35px;
-  /* margin-left: 47px; */
 }
 
 .about__logo-background{
   display: flex;
+  justify-content: center;
+  align-items: center;
   width:240px;
   height: 240px;
   border-radius: 50%;
   background-color: black;
-  justify-content: center;
-  align-items: center;
 }
 
 .about__logo-image {
@@ -279,23 +272,69 @@ header {
 }
 
 .about__title {
+  margin-top: 136px;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  margin-top: 136px;
-  
 }
 
 .about__text {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 120%;
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
 }
 
-.footer {
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   min-height:180px;
+  margin-top: 180px;
+  padding-inline: 50px;
+}
+
+.footer__address {
+  justify-self: start;
+  width: 264px;
+  
+}
+
+.footer__menu {
+  justify-self: center;
+  text-align: center;
+}
+
+.footer__menu-list-item{
+  list-style: none;
+}
+
+.footer__menu-link {
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration-thickness: 0.8px;
+  text-underline-offset: 4px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-self: end;
+  justify-content: space-between;
+  width: 240px;
+}
+
+.footer__social-list-item {
+  list-style: none;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
 }
