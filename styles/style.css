@@ -91,7 +91,6 @@ header {
   row-gap: 20px;
   padding: 165px 0 106px;
   color: #FFFFFF;
-  font-weight: normal;
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
@@ -154,7 +153,7 @@ header {
 .lots__heading {
   padding-left: 40px;
   font-weight: 700;
-  font-size: 40px;  
+  font-size: 40px;
   text-transform: uppercase;
 }
 
