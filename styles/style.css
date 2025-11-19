@@ -126,10 +126,10 @@ header {
 
 .bet-button {
   z-index: 4;
-  padding: 12px 32px 11px 31px;
   border-width: 1px;
   border-style: solid;
   border-color: #FFFFFF;
+  padding: 12px 32px 11px 31px;
   color: #FFFFFF;
   font-weight: 500;
   font-size: 22px;
@@ -278,8 +278,8 @@ header {
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  
   margin-top: 180px;
+  padding-bottom: 82px;
   padding-inline: 50px;
 }
 
