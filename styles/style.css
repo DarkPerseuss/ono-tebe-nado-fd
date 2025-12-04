@@ -86,7 +86,7 @@ header {
   flex-direction: column;
   row-gap: 20px;
   padding: 165px 0 106px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
@@ -116,21 +116,21 @@ header {
 
 .cover__description-text {
   z-index: 3;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: normal;
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing:18.5px;
+  word-spacing: 18.5px;
 }
 
 .bet-button {
   z-index: 4;
   border-width: 1px;
   border-style: solid;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
   padding: 12px 32px 11px 31px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 500;
   font-size: 22px;
   text-align: center;
@@ -197,7 +197,7 @@ header {
 .card__title {
   position: relative;
   z-index: 2;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
@@ -209,7 +209,7 @@ header {
 .card__text {
   position: relative;
   z-index: 2;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
